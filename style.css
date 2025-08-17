@@ -12,38 +12,47 @@
 }
 @media screen and (max-width:576px) {
     body {
-        background-color: lightblue;
+        background-color: #d0cfcf;
     }
-    .banner-div{
+    /* .banner-div{
        flex-direction: column;
-    }
-    .banner-heading{
+    } */
+    /* .banner-heading{
       font-size: 60px;
-    }
-    .banner-button{
+    } */
+    /* .banner-button{
       font-size: 16px;
       width: 150px;
-    }
-    .floating-rating{
+    } */
+    /* .floating-rating{
       width: 180px;
       height:70px ;
-    }
-    .floating-number{
+    } */
+    /* .floating-number{
         font-size:20px ;
-    }
-    .floating-text{
+    } */
+    /* .floating-text{
       font-size: 15px;
-    }
-    .upper-section{
+    } */
+    /* .upper-section{
      width: auto;
-    }
-    .featured-container{
+    } */
+    /* .featured-container{
       flex-direction: column;
       align-items: center;
-    }
-    .featured-card{
+    } */
+    /* .featured-card{
       width: auto;
       margin-top: 30px;
-    }
+    } */
+    /* .discription-section{
+      flex-direction: column;
+    } */
+    /* .discription-left{
+      width: auto;
+    } */
+    /* .discription-right{
+    
+    } */
   }
    

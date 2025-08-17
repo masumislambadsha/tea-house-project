@@ -18,71 +18,111 @@
   </head>
   <body class="manrope">
     <!-- Banner Section -->
-     <div class="banner-div min-h-[200px] max-w-[1250px] mx-auto flex justify-between items-center">
+     <div class="banner-div min-h-[200px] max-w-[1250px] mx-auto flex flex-col md:flex-row justify-between items-center">
         <div class="left-div ">
-            <h1 class="banner-heading manrope text-[80px] font-bold">It's good <br>tea time at The <br> Tea House</h1>
+            <h1 class="banner-heading manrope text-[60px] md:text-[80px]  font-bold">It's good <br>tea time at The <br> Tea House</h1>
             <p class="text-[18px] my-[30px]">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
-            <button class="banner-button bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-[200px] h-[64px] text-[20px] text-white rounded-[10px] ">Explore More <span><i class="fa-solid fa-arrow-right rotate-45"></i></span></button>
+            <button class="banner-button bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-[150px] h-[64px] text-[16px] text-white rounded-[10px] md:text-[20px] md:w-[200px]">Explore More <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
         </div>
         <div class="right-div relative">
            <img src="./images/banner.png" class="relative top-[100px]">
-            <div class="floating-rating flex items-center w-[255px] h-[100px] rounded-lg shadow-md absolute bg-white left-[100px]">
+            <div class="floating-rating flex items-center w-[200px] h-[70px] md:w-[255px] md:h-[100px] rounded-lg shadow-md absolute bg-white left-[100px]">
                 <span class="text-2xl"><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
                 <div class="ml-4">
-                    <p class="floating-number text-[30px] font-bold text-color">5.00</p>
-                    <p class=" floating-text light-color">Trush Pilot Ratings</p>
+                    <p class="floating-numbertext-[30px] md:text-[30px] font-bold text-color">5.00</p>
+                    <p class=" floating-text light-color md:text-[20px]">Trush Pilot Ratings</p>
                 </div>
             </div>
         </div>
      </div>
      <!-- featured section -->
-      <section class=" max-w-[1250px] mx-auto mt-[170px]">
-        <div class="upper-section grid justify-center">
-          <h1 class="upper-section text-[45px] font-bold text-color  text-center">Our Featured Products</h1>
-        <p class="upper-section text-[16px] font-normal light-color text-center mt-[20px] w-[901px] h-[52px] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+       <section class=" max-w-[1250px] mx-auto mt-[170px]">
+        <div class="upper-section grid justify-center w-auto">
+          <h1 class="upper-section text-[45px] font-bold text-color  text-center w-auto">Our Featured Products</h1>
+        <p class="upper-section text-[16px] font-normal light-color text-center mt-[20px] md:w-[901px] h-[52px] w-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
       </div>
         <div>
-        <div class="featured-container flex justify-between mt-[60px]">
+        <div class="featured-container flex flex-col justify-between items-center mt-[60px] md:flex-row">
            
-            <div class="featured-card  w-[267px]  ">
+            <div class="featured-card  w-[auto] mt-[30px] md:w-[267px]  ">
               <div class="imgs w-[208px] flex justify-center text-center"><img src="./images/tea-1.png" alt="">
               </div>
            <h3 class="text-[25px] font-bold text-color  w-[208px] h-[44px] text-center mt-[40px] mb-0">Milk Tea</h3>
           <p class="text-[16px] font-semibold light-color w-[208px] h-[44px] text-center mt-[10px]">Creamer could be replaces by fresh milk</p>
         </div>
-            <div class="featured-card  w-[267px]  ">
+            <div class="featured-card  w-[auto] mt-[30px] md:w-[267px] ">
               <div class="imgs w-[208px] flex justify-center text-center"><img src="./images/tea-2.png" alt="">
               </div>
            <h3 class="text-[25px] font-bold text-color  w-[208px] h-[44px] text-center mt-[40px] mb-0">Black Tea</h3>
           <p class="text-[16px] font-semibold light-color w-[208px] h-[44px] text-center mt-[10px]">Creamer could be replaces by fresh milk</p>
         </div>
-            <div class="featured-card  w-[267px]  ">
+            <div class="featured-card w-[auto] mt-[30px] md:w-[267px] ">
               <div class="imgs w-[208px] flex justify-center text-center"><img src="./images/tea-3.png" alt="">
               </div>
            <h3 class="text-[25px] font-bold text-color  w-[208px] h-[44px] text-center mt-[40px] mb-0">Lemon Tea</h3>
           <p class="text-[16px] font-semibold light-color w-[208px] h-[44px] text-center mt-[10px]">Creamer could be replaces by fresh milk</p>
         </div>
-            <div class="featured-card  w-[267px]  ">
+            <div class="featured-card w-[auto] mt-[30px] md:w-[267px] ">
               <div class="imgs w-[208px] flex justify-center text-center"><img src="./images/tea-4.png" alt="">
               </div>
            <h3 class="text-[25px] font-bold text-color  w-[208px] h-[44px] text-center mt-[40px] mb-0">Green Tea</h3>
           <p class="text-[16px] font-semibold light-color w-[208px] h-[44px] text-center mt-[10px] ">Creamer could be replaces by fresh milk</p>
         </div>
     </div>
-        <!-- Discription Section-->
-         <section class="discription-section">
-          <div class="discription-left"></div>
-          <div class="discription-right">
-            <h2></h2>
-            <p></p>
-            <h3></h3>
-            <p></p>
-            <h3></h3>
-            <p></p>
+      </section>
+       <!-- Discription Section-->
+         <section class="discription-section h-[505px] max-w-[1250px] mx-auto mt-[60px] flex gap-4 p-[16px] flex-col md:flex-row">
+          <div class="discription-left  w-auto md:w-1/2 h-full grid grid-cols-2 grid-rows-3 gap-4">
+              <div class="  bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-15 rounded-[10px]"></div>
+              <div class=" row-span-2 bg-[#E6A6231A] flex justify-center items-center rounded-[10px]"><img src="./images/fresh-1.png"></div>
+              <div class="   row-span-2 bg-[#E6A6231A] flex justify-center items-center rounded-[10px]"><img src="./images/fresh-2.png" alt=""></div>
+              <div class=" bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF rounded-[10px]"></div>
+          </div>
+          <div class="discription-right    w-[430px] md:w-1/2 h-full">
+            <h2 class="discription-right text-[45px] text-color font-bold">Great Tea, Freshly Presented</h2>
+            <p  class="discription-right font-[500] text-[16px] light-color my-[20px] w-[582px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <h3 class="text-[20px] text-color font-bold">Unique Taste</h3>
+            <p class="font-[500] text-[16px] light-color my-[10px] w-[456px]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            <h3 class="text-[20px] text-color font-bold">Premium Quality</h3>
+            <p class="font-[500] text-[16px] light-color my-[10px] w-[456px]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
           </div>
          </section>
-        
-        
-      </section>
+         <!-- Review Section -->
+           <section class="review-section h-[1000px] md:h-[650px] max-w-[1250px] mx-auto mt-[60px]  flex justify-center itemgap-4 p-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-[white] rounded-xl flex-col md:flex-row">
+          <div class="review-left  w-1/2 h-full  flex justify-center items-center p-[50px]">
+            <div>
+            <h1 class="text-[45px] font-bold  mx-auto">Meet Our Super <br> Clients</h1>
+              <p class="mt-8 mb-5  mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+              <button class="w-[139px] h-[56px] bg-white text-[20px] font-bold text-[#FF8938] rounded-lg"> Show All</button>
+          </div>
+          </div>
+          <div class="review-right  w-1/2 h-full  relative">
+            <div class="review h-[250px] w-[70vw] md:w-[70%]  bg-white text-black p-10 rounded-lg absolute top-[27%] left-[5%] z-10 ">
+              <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h3 class="text-xl font-bold mt-4">Ilham Yuda</h3>
+              <div class="absolute -top-[20px] -left-[30px]  rounded-full p-1 bg-white">
+                <img src="./images/client.png " alt="">
+                
+              </div>
+              <p>Businessman</p>
+              <img src="./images/circles.png" alt="" class="absolute left-85 top-50">
+            </div>
+            <div class="review h-[250px] w-[70vw] md:w-[70%]  bg-white text-black p-10 rounded-lg absolute top-[7%] left-[26%] opacity-20">
+              <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h3 class="text-xl font-bold mt-4">Ilham Yuda</h3>
+              <div class="absolute -top-[20px] -left-[30px]  rounded-full p-1 bg-white">
+                <img src="./images/client.png " alt="">
+              </div>
+              <p>Businessman</p>
+            </div><div class="review h-[250px] w-[70vw]md:w-[70%]  bg-white text-black p-10 rounded-lg absolute top-[53%] left-[26%] opacity-20">
+              <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <h3 class="text-xl font-bold mt-4">Ilham Yuda</h3>
+              <div class="absolute -top-[20px] -left-[30px]  rounded-full p-1 bg-white">
+                <img src="./images/client.png " alt="">
+              </div>
+              <p>Businessman</p>
+            </div>
+          </div>
+         </section>
   </body>
 </html>
