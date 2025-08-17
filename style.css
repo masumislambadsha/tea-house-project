@@ -1,18 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
-
-.manrope{
+.manrope {
   font-family: "Manrope", sans-serif;
 }
-.text-color{
+.text-color {
     color: #1C1C1C;
 }
-.light-color{
+
+.light-color {
     color: #777777;
 }
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media screen and (max-width:576px) {
+    body {
+        background-color: lightblue;
+    }
+    .banner-div{
+       flex-direction: column;
+    }
+    .banner-heading{
+      font-size: 60px;
+    }
+    .banner-button{
+      font-size: 16px;
+      width: 150px;
+    }
+    .floating-rating{
+      width: 180px;
+      height:70px ;
+    }
+    .floating-number{
+        font-size:20px ;
+    }
+    .floating-text{
+      font-size: 15px;
+    }
+    .upper-section{
+     width: auto;
+    }
+    .featured-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .featured-card{
+      width: auto;
+      margin-top: 30px;
+    }
   }
-}
+   
