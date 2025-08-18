@@ -11,9 +11,9 @@
     color: #777777;
 }
 @media screen and (max-width:576px) {
-    body {
+    /* body {
         background-color: #d0cfcf;
-    }
+    } */
     /* .banner-div{
        flex-direction: column;
     } */
