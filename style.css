@@ -10,6 +10,9 @@
 .light-color {
     color: #777777;
 }
+.gradiant-bg{
+   background-image: linear-gradient(to right, #FF8938 ,red );
+}
 @media screen and (max-width:576px) {
     /* body {
         background-color: #d0cfcf;
